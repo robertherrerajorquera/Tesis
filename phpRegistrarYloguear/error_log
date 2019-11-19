@@ -1,0 +1,12 @@
+[08-Oct-2019 02:58:59 UTC] PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/car49017/public_html/phpRegistrarYloguear/conexion.php on line 29
+[08-Oct-2019 02:58:59 UTC] PHP Warning:  mysqli::query(): invalid object or resource mysqli
+ in /home/car49017/public_html/phpRegistrarYloguear/usuario.php on line 138
+[09-Oct-2019 00:57:45 UTC] PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/car49017/public_html/phpRegistrarYloguear/conexion.php on line 29
+[09-Oct-2019 00:57:45 UTC] PHP Warning:  mysqli::query(): invalid object or resource mysqli
+ in /home/car49017/public_html/phpRegistrarYloguear/usuario.php on line 138
+[09-Oct-2019 00:58:32 UTC] PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/car49017/public_html/phpRegistrarYloguear/conexion.php on line 29
+[09-Oct-2019 00:58:32 UTC] PHP Warning:  mysqli::query(): invalid object or resource mysqli
+ in /home/car49017/public_html/phpRegistrarYloguear/usuario.php on line 138
+[09-Oct-2019 00:59:01 UTC] PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'car49017_root'@'localhost' (using password: YES) in /home/car49017/public_html/phpRegistrarYloguear/conexion.php on line 29
+[09-Oct-2019 00:59:01 UTC] PHP Warning:  mysqli::query(): invalid object or resource mysqli
+ in /home/car49017/public_html/phpRegistrarYloguear/usuario.php on line 138
