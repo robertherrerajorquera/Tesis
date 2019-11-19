@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: rgb(0, 68, 255);
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .card{
+      max-width: 580px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    img {
+      width: 100%;
+     /* height: 180px;*/
+     min-width: 50px;
+    }
+    .card{
+      width: 100%;
+    }
+
+  }
+
+  
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .ButtonLogin {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 170px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+  }
+  .ButtonLogin:hover {
+    background-color: #45a049;
+  }
+  
+  #contenedorLogin{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin:auto;
+  }
+  #ContenedorTop{
+    width: 100%;
+    height: 900px;
+    background-color: rgb(189, 180, 180);
+  }
+  #ContenedorGraficos{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+  }
+  #ContenedorGraficoEstadistico{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+  }
+  #myCenternav{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    margin: 0 auto;
+  }
+  #agregaRegistros{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    margin: 0 auto;
+  }
+  img {
+    width: 100%;
+   /* height: 180px;*/
+   min-width: 80px;
+  }
+  #ContenedorMedio{
+    width: 2000px;
+    height: 800px;
+   
+    margin: auto;
+  }
+  .ContenedorInfoLocal{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  .fotosLocales{
+    width: 100%;
+    height: 200px;
+  }
+  #ContenedorImagen{
+    width: 100%;
+    height: 210px;
+    margin: auto;
+  }
+
+  #ContenedorMedio ul{
+    list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+
+  }
+  #ContenedorMedio li a{
+    background-color: #303030;
+  }
+  #ContenedorMedio li{
+   
+     margin-left: 20px;
+     margin-top: 50px;
+  }
+  #ContenedorMedio li a{
+      display: block;
+      color: #FEFEFE;
+      font-size: large;
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin-top: 10px;
+      font-size: 12px;
+      padding: 16px;
+      text-decoration: none;
+  }
+  #ad{
+    width: 800px;
+    height: 100%;
+ 
+  }
+  .card{
+    width: 100%;
+  }
