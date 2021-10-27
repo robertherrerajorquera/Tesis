@@ -1,2 +1,2 @@
 # Tesis
-Tesis, centro ciudad SPA
+Tesis, centro ciudad SPA, parcialmente completa...
